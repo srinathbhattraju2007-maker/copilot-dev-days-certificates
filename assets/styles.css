@@ -108,7 +108,7 @@ body {
 /* Premium dark backdrop makes the certificate card pop */
 #certificate-view {
   background: linear-gradient(160deg, var(--primary-color) 0%, #0b1824 100%);
-  padding: 40px 20px;
+  padding: 24px 16px;
   align-items: center;
 }
 
@@ -138,12 +138,12 @@ body {
   color: var(--text-color);
   display: flex;
   flex-direction: column;
-  padding: 36px 56px 28px;
+  padding: 22px 44px 18px;
   box-sizing: border-box;
   position: relative;
   /* Inner gold border drawn via outline with negative offset */
   outline: 1.5px solid rgba(200, 169, 81, 0.45);
-  outline-offset: -22px;
+  outline-offset: -18px;
 }
 
 /* Corner L-bracket ornaments via CSS multi-background gradients */
@@ -175,20 +175,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  margin-bottom: 8px;
+  gap: 5px;
+  margin-bottom: 6px;
 }
 
 .cert-logo {
-  max-height: 54px;
-  max-width: 180px;
+  max-height: 72px;
+  max-width: 220px;
   object-fit: contain;
 }
 
 .cert-org-name {
   font-family: var(--font-body);
   font-weight: 700;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -200,7 +200,7 @@ body {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 /* Gradient-fade ornament lines (more elegant than flat gold) */
@@ -218,7 +218,7 @@ body {
 
 .cert-heading-label {
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-style: italic;
   color: var(--primary-color);
   white-space: nowrap;
@@ -240,7 +240,7 @@ body {
 .cert-pre-name-text,
 .cert-post-name-text {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: var(--muted-color);
   margin: 0;
   letter-spacing: 0.02em;
@@ -248,11 +248,11 @@ body {
 
 .cert-name {
   font-family: var(--font-heading);
-  font-size: 2.75rem;
+  font-size: 3.4rem;
   font-weight: 700;
   color: var(--primary-color);
-  margin: 6px 0 4px;
-  line-height: 1.15;
+  margin: 5px 0 3px;
+  line-height: 1.1;
   letter-spacing: -0.01em;
 }
 
@@ -269,22 +269,22 @@ body {
 
 .cert-workshop {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   font-weight: 600;
   font-style: italic;
   color: var(--primary-color);
-  margin: 6px 0 0;
+  margin: 5px 0 0;
   opacity: 0.88;
 }
 
 .cert-description {
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: 0.88rem;
   color: var(--muted-color);
-  max-width: 58%;
+  max-width: 62%;
   text-align: center;
   font-style: italic;
-  margin: 6px 0 0;
+  margin: 5px 0 0;
   line-height: 1.55;
 }
 
@@ -293,8 +293,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 14px;
-  padding-top: 14px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1px solid rgba(200, 169, 81, 0.35);
 }
 
@@ -316,7 +316,7 @@ body {
 /* Date and signature name: thin rule above for formal document feel */
 .cert-date {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-color);
   padding-top: 5px;
@@ -338,7 +338,7 @@ body {
 
 .cert-authorized-name {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--text-color);
   margin: 0;
@@ -348,7 +348,7 @@ body {
 
 .cert-footer-label {
   font-family: var(--font-body);
-  font-size: 0.63rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--secondary-color);
@@ -362,7 +362,7 @@ body {
 
 .cert-id-label {
   font-family: var(--font-body);
-  font-size: 0.60rem;
+  font-size: 0.72rem;
   color: var(--muted-color);
   letter-spacing: 0.06em;
   margin: 0;
