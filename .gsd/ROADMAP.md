@@ -4,7 +4,7 @@
 
 ### Phases
 
-- [ ] **Phase 01: Scaffold & Config System** — Repo structure, config loader, dynamic CSS variables, SPA shell, sample data
+- [x] **Phase 01: Scaffold & Config System** — Repo structure, config loader, dynamic CSS variables, SPA shell, sample data
 - [ ] **Phase 02: Certificate Rendering** — Full certificate view with all fields, A4 layout, fonts, data fetching, validation
 - [ ] **Phase 03: Interactive Features** — QR code generation, PDF download, action bar, print exclusions
 - [ ] **Phase 04: Search & SPA Routing** — Landing page, email sanitization, URL routing, back-button support
@@ -145,7 +145,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 01. Scaffold & Config System | 0/5 | Not Started | - |
+| 01. Scaffold & Config System | 5/5 | Complete | 2026-04-11 |
 | 02. Certificate Rendering | 0/4 | Not Started | - |
 | 03. Interactive Features | 0/3 | Not Started | - |
 | 04. Search & SPA Routing | 0/3 | Not Started | - |
