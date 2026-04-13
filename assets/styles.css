@@ -524,12 +524,17 @@ body.pdf-exporting .certificate {
 }
 
 .pdf-export-host .certificate {
-  width: var(--pdf-export-width, 297mm);
-  height: var(--pdf-export-height, 210mm);
-  aspect-ratio: auto;
-  padding: 12mm 18mm 10mm;
-  outline: none;
-  overflow: hidden;
+  width: 100%;
+}
+
+.pdf-export-host .cert-heading-label {
+  line-height: 1;
+  position: relative;
+  top: -0.12cqw;
+}
+
+.pdf-export-host .cert-name::after {
+  margin-top: 1.75cqw;
 }
 
 /* Corner L-bracket ornaments via CSS multi-background gradients */
@@ -864,6 +869,16 @@ body.pdf-exporting .certificate {
     bottom: 8mm;
     border: 0.4pt solid rgba(200, 169, 81, 0.5);
     pointer-events: none;
+  }
+
+  .cert-heading-label {
+    line-height: 1;
+    position: relative;
+    top: -0.12cqw;
+  }
+
+  .cert-name::after {
+    margin-top: 1.35cqw;
   }
 }
 

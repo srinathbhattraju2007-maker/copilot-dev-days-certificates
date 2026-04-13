@@ -234,11 +234,15 @@ function setPDFExportState(config, isExporting, currentState) {
     throw new Error('Certificate export target is missing.');
   }
 
-  var size = getPDFPageSize(config);
+  var wrapperRect = sourceWrapper.getBoundingClientRect();
+  var certRect = sourceCertificate.getBoundingClientRect();
+  var exportWidth = Math.ceil(wrapperRect.width);
+  var exportHeight = Math.ceil(certRect.height);
+
   var host = document.createElement('div');
   host.className = 'pdf-export-host';
-  host.style.setProperty('--pdf-export-width', size.width);
-  host.style.setProperty('--pdf-export-height', size.height);
+  host.style.setProperty('--pdf-export-width', exportWidth + 'px');
+  host.style.setProperty('--pdf-export-height', exportHeight + 'px');
 
   var wrapper = sourceWrapper.cloneNode(true);
   var certificate = wrapper.querySelector('#certificate') || wrapper.querySelector('.certificate');
